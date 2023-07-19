@@ -411,6 +411,9 @@ color: #FF42A5;
     font-size: 10px;
     padding-bottom: 20px;
 }
+.terms-condition > div:hover{
+    cursor: pointer;
+}
 .copyright p{
     font-size: 9px;
     color: rgba(255, 255, 255, 0.60);
@@ -617,7 +620,7 @@ color: #FF42A5;
     background-color: white;
 }
 .catagory-1{
-    width: 100%;
+   
     height: 50px;
 }
 .catagory-1:hover {
@@ -648,8 +651,14 @@ color: #FF42A5;
 .social-icon-container{
     width: 60%;
 }
-
-
+.watch-now {
+    top: 42%;
+    left: 48%;
+    font-size: 13px;
+}
+.hover-icon {
+    top: 27%;
+}
 
 
 
