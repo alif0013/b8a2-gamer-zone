@@ -240,6 +240,66 @@ i.fa-regular.fa-circle-play {
 
 }
 
+/* play instantly section start */
+.color-play-instantly {
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+
+.play-instantly-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    gap: 50px;
+}
+
+.play-content {
+    width: 50%;
+    padding: 10px 85px 0 0;
+    text-align: right;
+    position: relative;
+}
+
+.play-content h1 {
+    font-size: 35px;
+}
+
+.play-content p {
+    color: #534C64;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.play-image {
+    margin-top: 70px;
+    width: 38%;
+    padding: 15px;
+}
+
+.play-image img {
+    width: 100%;
+}
+
+.over-image {
+    position: relative;
+    width: 180px;
+    margin: 0;
+    bottom: 155px;
+    right: 75px;
+}
+
+.over-image img {}
+
+
+
 
 
 
@@ -304,8 +364,34 @@ i.fa-regular.fa-circle-play {
     .online-game-title p {
         font-size: 14px;
     }
-    .card-container{
+
+    .card-container {
         flex-direction: column;
+    }
+
+    /* play instantly section  */
+    .over-image {
+        position: relative;
+        width: 120px;
+        bottom: 100px;
+        right: 75px;
+    }
+
+    .play-image {
+        width: 80%;
+        margin-left: 60px
+    }
+
+    .play-instantly-container {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .play-content {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        margin-top: 60px;
     }
 
 
@@ -313,7 +399,21 @@ i.fa-regular.fa-circle-play {
 
 
 
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
 
 /* responsive for medium/tablet device  */
 
@@ -324,10 +424,25 @@ i.fa-regular.fa-circle-play {
         margin-top: 50px;
     }
 
+    /* play instant section  */
+    .play-instantly-container {
+        flex-direction: column;
+        gap: 0;
+    }
 
+    .play-content {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .play-image{
+        width: 65%;
+    }
 
-
-
+    .over-image{
+        bottom: 135px;
+    }
 
 
 
