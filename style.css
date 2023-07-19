@@ -296,7 +296,61 @@ i.fa-regular.fa-circle-play {
     right: 75px;
 }
 
-.over-image img {}
+/* catagory design start  */
+.catagory-section {
+    background-color: #FFF9FC;
+}
+
+
+
+.five-catagory-container {
+    width: 80%;
+    padding: 100px 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.catagory-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 55px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.catagory-1:hover {
+    cursor: pointer;
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+    margin-right: 0;
+    width: 201px
+}
+
+
+.circle-pic img {
+    width: 70%;
+    padding-top: 4px;
+}
+
+.circle-title h3 {
+    font-size: 14px;
+    margin-right: 23px;
+}
+
+
+
+
+
+
+
+
+
+/* catagory design end  */
 
 
 
@@ -393,12 +447,34 @@ i.fa-regular.fa-circle-play {
         text-align: center;
         margin-top: 60px;
     }
+/* catagory sectoion start  */
+.five-catagory-container {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+.catagory-section {
+    background-color: white;
+}
+.catagory-1{
+    width: 100%;
+    height: 35px;
+}
+.catagory-1:hover {
+    cursor: pointer;
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+    margin-right: 0;
+    width: 100%
+}
+.circle-pic img {
+    width: 70%;
+    padding-top: 4px
 
-
-
-
-
-
+}
+.circle-title h3 {
+   
+    font-weight: 700;
+}
 
 
 
@@ -436,15 +512,45 @@ i.fa-regular.fa-circle-play {
         text-align: center;
         margin-top: 50px;
     }
-    .play-image{
+
+    .play-image {
         width: 65%;
     }
 
-    .over-image{
+    .over-image {
         bottom: 135px;
     }
 
+/* catagory section start  */
+.five-catagory-container {
+    width: 100%;
+    padding: 0;
+    grid-template-columns: repeat(3, 1fr);
+}
+.catagory-section {
+    background-color: white;
+}
+.catagory-1{
+    width: 100%;
+    height: 50px;
+}
+.catagory-1:hover {
+    cursor: pointer;
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+    margin-right: 0;
+    width: 100%
+    h
+}
+.circle-pic img {
+    width: 70%;
+    padding-top: 4px
 
+}
+.circle-title h3 {
+    
+    font-weight: 700;
+}
 
 
 
