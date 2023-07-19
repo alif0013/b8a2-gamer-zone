@@ -341,28 +341,51 @@ i.fa-regular.fa-circle-play {
     font-size: 14px;
     margin-right: 23px;
 }
-
-
-
-
-
-
-
-
-
 /* catagory design end  */
 
+/* footer section start  */
+.main-footer{
+    background-color:#0B0223;
+}
+
+.footer-container{
+width: 50%;
+margin: auto;
+text-align: center;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 30px 0;
+}
+/* .footer-logo-img{
+    
+} */
+.footer-logo-img img{
+    width: 60%;
+    padding-top: 5px;
+}
+.footer-logo-text-color{
+color: white;
+font-size: 20px;
+}
+.more-link > div:hover{
+    cursor: pointer;
+    color: #FF42A5;
+}
+.more-link{
+    font-size: 13px;
+    padding-bottom: 40px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
 
 
 
 
-
-
-
-
-
-
-
+/* footer section start  */
 
 
 
@@ -476,8 +499,14 @@ i.fa-regular.fa-circle-play {
     font-weight: 700;
 }
 
-
-
+/* footer start  */
+.more-link > div{
+    padding: 3px 0;
+}
+.more-link {
+    font-size: 12px;
+    grid-template-columns: repeat(3, 1fr);
+}
 
 
 
@@ -485,6 +514,11 @@ i.fa-regular.fa-circle-play {
 
 
 }
+
+
+
+
+
 
 
 
@@ -551,6 +585,20 @@ i.fa-regular.fa-circle-play {
     
     font-weight: 700;
 }
+/* footer start  */
+.more-link {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.more-link > div{
+    padding: 5px 0;
+}
+
+
+
+
+
+
 
 
 
